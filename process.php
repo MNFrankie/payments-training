@@ -96,7 +96,7 @@ function sendAirtime($recipients){
             echo $result->requestId;
 
             //Error message is important when the status is not Success
-            echo $esult->errorMessage;
+            echo $result->errorMessage;
         }
     }
     catch(AfricasTalkingGatewayException $e){
